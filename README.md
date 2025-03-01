@@ -21,6 +21,10 @@ PlayGround for Git function Test
 
    이러면 새로운 HEAD가 생기고 "file"은 새로운 HEAD에서 unmodified 파일로 변경됨.
 
+4. git diff "file"
+    해당 파일의 변경 사항을 표현,
+    다만, staging area에 있는 건 표현 안되고, 보고 싶다면 git diff --staged "file" 로 해야 함
+    
 4. git log --oneline
 
     git commit 내역을 보고 싶을 때. 
