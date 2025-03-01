@@ -18,3 +18,5 @@ PlayGround for Git function Test
    Staging Area에 있는 파일들을 git repository (local) 로 보내줌. 
    -m option은 comment 남겨주기 위함.
 
+   이러면 새로운 HEAD가 생기고 "file"은 새로운 HEAD에서 unmodified 파일로 변경됨.
+
