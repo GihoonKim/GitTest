@@ -40,3 +40,4 @@ PlayGround for Git function Test
     <커밋해시> 대신 HEAD~num 옵션으로 num 단계 이전 커밋으로 이동 가능합니다.
 
 
+7. 중요 branch에 대해서는 보호화된 브랜치 설정으로 무조건 PR이 있어야 할 수 있게 만든다.
