@@ -51,3 +51,7 @@ PlayGround for Git function Test
     pull request가 생성됨. 이걸 확인하고 create pull request, merge 순서로 진행됨.
     이미 push 한 상태에서 merge 전에 추가로 push하면 기존 pull request에 합쳐짐.
 
+10. branch A를 main에서 생성했는데, 그 사이에 main이 업데이트 됐을 때, 수정사항을 다시 branch A에 반영
+    git checkout branchA
+    git merge main or git rebase main 각각의 장단이 있어서 확인하고 진행할 것.
+
