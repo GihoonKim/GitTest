@@ -41,3 +41,13 @@ PlayGround for Git function Test
 
 
 7. 중요 branch에 대해서는 보호화된 브랜치 설정으로 무조건 PR이 있어야 할 수 있게 만든다.
+
+8. 새로운 branch 생성하고 이동하기 (local)
+   git checkout -b "new branch"  
+   참고로 이미 있는 branch로 이동은 git checkout "branch"
+
+9. 새롭게 생성된 branch에서 업데이트하고 원격 저장소로 push
+    git push origin "branch"
+    pull request가 생성됨. 이걸 확인하고 create pull request, merge 순서로 진행됨.
+    이미 push 한 상태에서 merge 전에 추가로 push하면 기존 pull request에 합쳐짐.
+
