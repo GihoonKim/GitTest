@@ -54,4 +54,6 @@ PlayGround for Git function Test
 10. branch A를 main에서 생성했는데, 그 사이에 main이 업데이트 됐을 때, 수정사항을 다시 branch A에 반영
     git checkout branchA
     git merge main or git rebase main 각각의 장단이 있어서 확인하고 진행할 것.
-
+    
+11. branch A를 main에서 생성했는데, 그 사이에 main이 업데이트 됐을 때, 수정사항을 다시 branch A에 반영 
+    git checkout branchA git merge main or git rebase main 각각의 장단이 있어서 확인하고 진행할 것.
