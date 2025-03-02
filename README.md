@@ -41,3 +41,8 @@ PlayGround for Git function Test
 
 
 7. 중요 branch에 대해서는 보호화된 브랜치 설정으로 무조건 PR이 있어야 할 수 있게 만든다.
+
+8. 새로운 branch 생성하고 이동하기 (local)
+   git checkout -b "new branch"  
+   참고로 이미 있는 branch로 이동은 git checkout "branch"
+
